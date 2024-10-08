@@ -1,2 +1,36 @@
-# ComparadorPreciosSupermercados
-Proyecto enfocado en crear una aplicación web que a partir de las APIs de los supermercados muestre sus productos y permita comparar los precios
+# Comparador precios supermercados
+Proyecto enfocado en crear una aplicación web que a partir de las APIs de los supermercados muestre sus productos y permita comparar los precios.
+- APIs de Supermercado
+  - API Mercadona
+      - Test Categorias
+      - Test Productos
+      - Objeto Producto
+        - Categoria
+        - Nombre producto
+        - Precio
+        - Peso
+        - Marca
+        - Etc  
+  - API Carrefour
+  -   - Test Categorias
+      - Test Productos
+      - Objeto Producto
+        - Categoria
+        - Nombre producto
+        - Precio
+        - Peso
+        - Marca
+        - Etc  
+  - API 3er supermercado
+  -   - Test Categorias
+      - Test Productos
+      - Objeto Producto
+        - Categoria
+        - Nombre producto
+        - Precio
+        - Peso
+        - Marca
+        - Etc
+  - Diseñar una base de datos con categorias y productos, unificando los supermercados
+  - Almacenar productos en la BBDD, debe contener la fecha de la ultima actualización y el supermercados al que pertenece.
+  - ETC
