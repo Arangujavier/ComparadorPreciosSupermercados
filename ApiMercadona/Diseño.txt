@@ -1,0 +1,5 @@
+Funciones API:
+ObtenerIdsCategorias: return array(id_categoria): Obtiene una lista de los ids de las categorias.
+ObtenerIdsProductos(id_categoria): return array(id_productos): Obtiene una lista de los ids de los productos de una categoria.
+ObtenerCategoria(id_categoria): return Object(Categoria): Obtiene el objeto categoria corrrespondiente.
+ObtenerProductos(id_producto): return Object(Producto): Obtiene el objeto categoria corrrespondiente.
