@@ -37,8 +37,5 @@ jobs:
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress --working-dir=src
 
-    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
-    # Docs: https://getcomposer.org/doc/articles/scripts.md
-
-    # - name: Run test suite
-    #   run: composer run-script test --working-dir=src
+    - name: Run PHPUnit tests
+      run: composer run-script test --working-dir=src

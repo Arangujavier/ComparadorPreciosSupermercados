@@ -2,6 +2,9 @@
     "name": "miempresa/miproyecto",
     "description": "Un proyecto PHP de ejemplo para gestionar X",
     "license": "proprietary",
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
     "require-dev": {
         "mockery/mockery": "^1.6",
         "phpunit/phpunit": "^11.4"
