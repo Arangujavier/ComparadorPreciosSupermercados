@@ -17,6 +17,11 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Set up PHP 8.2
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.2'
+
     - name: Validate composer.json and composer.lock
       run: composer validate --strict src/composer.json
 
@@ -24,8 +29,8 @@ jobs:
       id: composer-cache
       uses: actions/cache@v3
       with:
-        path: vendor
-        key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
+        path: src/vendor
+        key: ${{ runner.os }}-php-${{ hashFiles('src/composer.lock') }}
         restore-keys: |
           ${{ runner.os }}-php-
 
@@ -36,4 +41,4 @@ jobs:
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
     # - name: Run test suite
-    #   run: composer run-script test
+    #   run: composer run-script test --working-dir=src
