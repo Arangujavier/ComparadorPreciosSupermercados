@@ -1,24 +1,15 @@
 <?php return array(
     'root' => array(
-        'name' => '__root__',
+        'name' => 'miempresa/miproyecto',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'f40bf64a22441d6794da7624f201d98a16c61e8d',
+        'reference' => '4b917b56aadef7b66cdcdfd1c1960723060dcd02',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => 'f40bf64a22441d6794da7624f201d98a16c61e8d',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'cordoval/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -45,6 +36,15 @@
             'replaced' => array(
                 0 => '*',
             ),
+        ),
+        'miempresa/miproyecto' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '4b917b56aadef7b66cdcdfd1c1960723060dcd02',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'mockery/mockery' => array(
             'pretty_version' => '1.6.12',
