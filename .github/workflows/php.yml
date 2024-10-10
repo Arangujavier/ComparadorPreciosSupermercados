@@ -38,7 +38,7 @@ jobs:
       run: composer install --prefer-dist --no-progress --working-dir=src
 
     - name: Make PHPUnit executable
-      run: chmod +x vendor/bin/phpunit
+      run: chmod +x src/vendor/bin/phpunit
 
     - name: Run PHPUnit tests
       run: composer run-script test --working-dir=src
