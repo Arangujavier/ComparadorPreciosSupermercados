@@ -3,7 +3,7 @@
         'name' => 'miempresa/miproyecto',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '4b917b56aadef7b66cdcdfd1c1960723060dcd02',
+        'reference' => 'c11f0c3ebe6c2ad6e1f90ea0f9ffa51b4b4b6057',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -40,7 +40,7 @@
         'miempresa/miproyecto' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '4b917b56aadef7b66cdcdfd1c1960723060dcd02',
+            'reference' => 'c11f0c3ebe6c2ad6e1f90ea0f9ffa51b4b4b6057',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
